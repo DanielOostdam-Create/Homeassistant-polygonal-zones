@@ -1,4 +1,4 @@
-> > [!NOTE]
+> [!NOTE]
 > **Maintained fork.** Upstream ([MichelGerding/Homeassistant-polygonal-zones](https://github.com/MichelGerding/Homeassistant-polygonal-zones)) was archived as unmaintained in early 2026. This fork by [@DanielOostdam-Create](https://github.com/DanielOostdam-Create) keeps the integration alive with fixes for current Home Assistant releases.
 >
 > **Changes in this fork:**
@@ -18,7 +18,7 @@ Installing the integration can be done using hacs but also manually. Installatio
 ### Install using hacs
 To install the integration using hacs you can either add the url to your custom repositories or use the button below
 
-[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=MichelGerding&repository=Homeassistant-polygonal-zones&category=integration)
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=DanielOostdam-Create&repository=Homeassistant-polygonal-zones&category=integration)
 
 
 ### Manual installation
