@@ -108,15 +108,17 @@ class ConfigFlow(EntryConfigFlow, domain=DOMAIN):
     @callback
     def async_get_options_flow(config_entry: ConfigEntry):
         """Get the options flow handler."""
-        return OptionsFlowHandler(config_entry)
+        return OptionsFlowHandler()
 
 
 class OptionsFlowHandler(OptionsFlow):
-    """Options flow handler."""
+    """Options flow handler.
 
-    def __init__(self, config_entry: ConfigEntry):
-        """Initialize the OptionsFlowHandler with configuration data."""
-        self.config_entry = config_entry
+    Note: Home Assistant 2025.12 deprecated explicitly setting
+    ``self.config_entry`` in ``OptionsFlow.__init__``. The framework now
+    injects ``self.config_entry`` automatically, so no ``__init__`` is needed.
+    See: https://developers.home-assistant.io/blog/2024/11/12/options-flow/
+    """
 
     async def async_step_init(
         self, user_input: dict[str, Any] | None = None
