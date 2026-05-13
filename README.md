@@ -1,10 +1,8 @@
-> ⚠️ **Deprecation Notice**
+> > [!NOTE]
+> **Maintained fork.** Upstream ([MichelGerding/Homeassistant-polygonal-zones](https://github.com/MichelGerding/Homeassistant-polygonal-zones)) was archived as unmaintained in early 2026. This fork by [@DanielOostdam-Create](https://github.com/DanielOostdam-Create) keeps the integration alive with fixes for current Home Assistant releases.
 >
-> This project is no longer actively maintained.  
-> No further updates, bug fixes, or security patches will be provided.
-> Use at your own risk — issues and pull requests may not receive a response.
->
-> Please consider using alternative or updated solutions for future development.
+> **Changes in this fork:**
+> - **v1.1.1** — Fix `OptionsFlow.config_entry` deprecation (Home Assistant 2025.12+)
 
 # Polygonal Zones
 
